@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "muicss": "^0.9.4",
     "next": "^1.1.1"
   },
   "scripts": {
