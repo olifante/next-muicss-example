@@ -1,4 +1,9 @@
 {
+  "name": "next-muicss-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Tiago Henriques <trinosauro@gmail.com>",
+  "license": "MIT",
   "dependencies": {
     "muicss": "^0.9.4",
     "next": "^1.1.1"
