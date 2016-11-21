@@ -12,5 +12,8 @@
     "dev": "next",
     "build": "next build",
     "start": "next start"
+  },
+  "devDependencies": {
+    "eslint-plugin-react": "^6.7.1"
   }
 }
