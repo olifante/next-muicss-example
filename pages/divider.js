@@ -8,7 +8,7 @@ class Example extends React.Component {
     return (
       <div>
         <Head>
-        <link href="//cdn.muicss.com/mui-0.9.3/css/mui.css" rel="stylesheet" type="text/css" />
+          <link href="//cdn.muicss.com/mui-0.9.3/css/mui.css" rel="stylesheet" type="text/css" />
         </Head>
         <div>Content 1</div>
         <Divider />

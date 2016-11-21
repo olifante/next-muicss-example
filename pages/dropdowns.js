@@ -9,14 +9,14 @@ class Example extends React.Component {
     return (
       <div>
         <Head>
-        <link href="//cdn.muicss.com/mui-0.9.3/css/mui.css" rel="stylesheet" type="text/css" />
+          <link href="//cdn.muicss.com/mui-0.9.3/css/mui.css" rel="stylesheet" type="text/css" />
         </Head>
-      <Dropdown color="primary" label="Dropdown">
-        <DropdownItem link="#/link1">Option 1</DropdownItem>
-        <DropdownItem>Option 2</DropdownItem>
-        <DropdownItem>Option 3</DropdownItem>
-        <DropdownItem>Option 4</DropdownItem>
-      </Dropdown>
+        <Dropdown color="primary" label="Dropdown">
+          <DropdownItem link="#/link1">Option 1</DropdownItem>
+          <DropdownItem>Option 2</DropdownItem>
+          <DropdownItem>Option 3</DropdownItem>
+          <DropdownItem>Option 4</DropdownItem>
+        </Dropdown>
       </div>
     );
   }
