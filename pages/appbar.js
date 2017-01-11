@@ -1,12 +1,12 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from 'react'
+import ReactDOM from 'react-dom'
 import Head from 'next/head'
-import Appbar from 'muicss/lib/react/appbar';
+import Appbar from 'muicss/lib/react/appbar'
 
 class AppbarExample extends React.Component {
   render() {
-    let s1 = { verticalAlign: 'middle' };
-    let s2 = { textAlign: 'right' };
+    let s1 = { verticalAlign: 'middle' }
+    let s2 = { textAlign: 'right' }
 
     return (
       <Appbar>
@@ -22,7 +22,7 @@ class AppbarExample extends React.Component {
           </tbody>
         </table>
       </Appbar>
-    );
+    )
   }
 }
 

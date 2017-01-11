@@ -1,10 +1,10 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from 'react'
+import ReactDOM from 'react-dom'
 import Head from 'next/head'
-import Form from 'muicss/lib/react/form';
-import Input from 'muicss/lib/react/input';
-import Textarea from 'muicss/lib/react/textarea';
-import Button from 'muicss/lib/react/button';
+import Form from 'muicss/lib/react/form'
+import Input from 'muicss/lib/react/input'
+import Textarea from 'muicss/lib/react/textarea'
+import Button from 'muicss/lib/react/button'
 
 class Example extends React.Component {
   render() {
@@ -21,7 +21,7 @@ class Example extends React.Component {
           <Button variant="raised">Submit</Button>
         </Form>
       </div>
-    );
+    )
   }
 }
 

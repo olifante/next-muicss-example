@@ -1,8 +1,8 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from 'react'
+import ReactDOM from 'react-dom'
 import Head from 'next/head'
-import Dropdown from 'muicss/lib/react/dropdown';
-import DropdownItem from 'muicss/lib/react/dropdown-item';
+import Dropdown from 'muicss/lib/react/dropdown'
+import DropdownItem from 'muicss/lib/react/dropdown-item'
 
 class Example extends React.Component {
   render() {
@@ -18,7 +18,7 @@ class Example extends React.Component {
           <DropdownItem>Option 4</DropdownItem>
         </Dropdown>
       </div>
-    );
+    )
   }
 }
 

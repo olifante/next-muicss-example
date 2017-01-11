@@ -1,7 +1,7 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from 'react'
+import ReactDOM from 'react-dom'
 import Head from 'next/head'
-import Button from 'muicss/lib/react/button';
+import Button from 'muicss/lib/react/button'
 
 class Example extends React.Component {
   render() {
@@ -23,7 +23,7 @@ class Example extends React.Component {
           <Button color="accent" disabled={true}>button</Button>
         </div>
       </div>
-    );
+    )
   }
 }
 

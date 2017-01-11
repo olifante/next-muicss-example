@@ -1,7 +1,7 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from 'react'
+import ReactDOM from 'react-dom'
 import Head from 'next/head'
-import Divider from 'muicss/lib/react/divider';
+import Divider from 'muicss/lib/react/divider'
 
 class Example extends React.Component {
   render() {
@@ -14,7 +14,7 @@ class Example extends React.Component {
         <Divider />
         <div>Content 2</div>
       </div>
-    );
+    )
   }
 }
 

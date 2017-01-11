@@ -1,6 +1,6 @@
-import React from 'react';
+import React from 'react'
 import Head from 'next/head'
-import Button from 'muicss/lib/react/button';
+import Button from 'muicss/lib/react/button'
 
 export default () => (
   <div>
