@@ -1,33 +1,36 @@
 {
-  "name": "next-muicss-example",
-  "version": "1.0.0",
-  "description": "An app showing how to use some MUI CSS components with next.js",
-  "keywords": [
-    "nextjs",
-    "mui",
-    "muicss",
-    "react",
-    "universal",
-    "isomorphic"
-  ],
-  "author": "Tiago Henriques <trinosauro@gmail.com>",
-  "license": "MIT",
-  "babel": {
-    "presets": [
-      "es2015",
-      "react"
-    ]
-  },
-  "dependencies": {
-    "muicss": "^0.9.4",
-    "next": "^1.1.1"
-  },
-  "devDependencies": {
-    "eslint-plugin-react": "^6.7.1"
-  },
-  "scripts": {
-    "dev": "next",
-    "build": "next build",
-    "start": "next start"
-  }
+    "name": "next-muicss-example",
+    "version": "1.0.0",
+    "description": "An app showing how to use some MUI CSS components with next.js",
+    "keywords": [
+        "nextjs",
+        "mui",
+        "muicss",
+        "react",
+        "universal",
+        "isomorphic"
+    ],
+    "author": "Tiago Henriques <trinosauro@gmail.com>",
+    "license": "MIT",
+    "babel": {
+        "presets": [
+            "es2015",
+            "react"
+        ]
+    },
+    "dependencies": {
+        "muicss": "^0.9.4",
+        "next": "^1.1.1"
+    },
+    "devDependencies": {
+        "eslint-plugin-react": "^6.7.1"
+    },
+    "scripts": {
+        "dev": "next",
+        "build": "next build",
+        "start": "next start"
+    },
+    "now": {
+        "alias": "next-muicss-example.now.sh"
+    }
 }
